@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../UI/Button'
 import Title from '../UI/Title'
 import styles from './AmountOfMarks.module.css'
+import Form from '../UI/Form'
 function AmountOfMarks() {
     const submitHandler = () => {
 
@@ -9,10 +10,10 @@ function AmountOfMarks() {
   return (
     <React.Fragment>
         <Title title="Введите количество оценок"/>
-        <form onSubmit={submitHandler} className={styles.form}>
-            <input type='text'className={styles.input}/>
+        <Form submitHandler={submitHandler}>
+          <input type='text'className={styles.input} maxlength="2"/>
             <Button buttonName='Продолжить'/>
-        </form>
+        </Form>
     </React.Fragment>
   )
 }

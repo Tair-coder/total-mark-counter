@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './components/UI/Card'
 import AmountOfMarks from './components/first-screen/AmountOfMarks';
+// import FillInSections from './components/second-screen/FillInSections';
 function App() {
   return (
     <div className="App">
