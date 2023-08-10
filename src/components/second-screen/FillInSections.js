@@ -3,6 +3,7 @@ import Title from "../UI/Title";
 import Button from "../UI/Button";
 import styles from "./FillInSections.module.css";
 import Form from "../UI/Form";
+import Card from "../UI/Card";
 function FillInSections() {
 //   const [first, setfirst] = useState([]);
 //   const amountOfInput = 27;
@@ -16,7 +17,7 @@ function FillInSections() {
 //   }, [amountOfInput]);
   const submitHandler = () => {};
   return (
-    <React.Fragment>
+    <Card>
       <Title title={"Заполните пустые ячейки оценками "} />
       <Form submitHandler={submitHandler}>
         <div className={styles.wrapper}>
@@ -26,9 +27,10 @@ function FillInSections() {
             );
           })} */}
         </div>
+        <p className={styles.error}>Заполните все пустые поля</p>
         <Button buttonName="Подсчитать" />
       </Form>
-    </React.Fragment>
+    </Card>
   );
 }
 

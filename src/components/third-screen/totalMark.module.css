@@ -1,0 +1,62 @@
+.mark {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 10px #d9d9d9 solid;
+  padding-bottom: 10px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    column-gap: 26px;
+    align-items: flex-start;
+    padding: 0;
+}
+.list li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 188px;
+    align-items: center;
+    width: 100%;
+}
+.title0fMark{
+    text-align: center;
+    height: 45px;
+}
+.markInOtherWays {
+  max-width: 100px;
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 10px #d9d9d9 solid;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* .markInWord {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.markInPercentages {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.markInNumber {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} */
