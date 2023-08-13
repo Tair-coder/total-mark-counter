@@ -25,3 +25,7 @@
   line-height: normal;
   text-align: center;
 }
+.error{
+  color: red;
+  font-size: 14px;
+}

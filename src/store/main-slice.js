@@ -4,9 +4,13 @@ const mainSlice = createSlice({
     name:'main',
     initialState,
     reducers:{
-        changeToSecondBlock(state){
-            state.currentBlock = 'second'
+        changeBlock(state,action){
+            state.currentBlock = action.payload
+        },
+        putNumberInCell(state,action){
+            state.amountSections = action.payload
         }
     }
 })
+export const mainActions = mainSlice.actions
 export default mainSlice.reducer
