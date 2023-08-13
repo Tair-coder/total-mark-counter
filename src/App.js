@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1 className='title'>счетчик итоговой оценки</h1>
       <AmountOfMarks/>
+      
     </div>
   );
 }
