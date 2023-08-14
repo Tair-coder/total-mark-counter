@@ -3,8 +3,14 @@ import Card from "../UI/Card";
 import Title from "../UI/Title";
 import styles from "./TotalMark.module.css";
 import Button from "../UI/Button";
+import { useDispatch, useSelector } from "react-redux";
 
+import { mainActions } from "../../store/main-slice";
 function TotalMark() {
+  const dispatchFunction = useDispatch()
+  const returnMainBlockHandler = () => {
+    dispatchFunction(mainActions.changeBlock())
+  }
   return (
     <Card>
       <Title title={"Итоговая оценка"} />
@@ -25,7 +31,7 @@ function TotalMark() {
             <h2 className={styles.markInOtherWays}>2.33</h2>
           </li>
         </ul>
-      <Button buttonName={"Подсчитать снова"} />
+      <Button buttonName={"Подсчитать снова"} onClick={returnMainBlockHandler} />
     </Card>
   );
 }
