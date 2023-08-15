@@ -51,6 +51,8 @@ function FillInSections() {
               type="text"
               value={item}
               maxLength={3}
+              pattern="[0-9]*"
+              inputmode="numeric"
             />
           ))}
         </div>

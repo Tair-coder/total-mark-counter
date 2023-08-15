@@ -17,7 +17,6 @@ const mainSlice = createSlice({
                 totalAmount+=arr[i]    
             }
             state.mark = totalAmount / state.amountSections
-            console.log(state.mark)
         }
     }
 })

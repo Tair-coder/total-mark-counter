@@ -22,7 +22,7 @@ function App() {
   }, [stateCurrentPage]);
   return (
     <div className="App">
-      <h1 className="title">счетчик итоговой оценки</h1>
+      {currentBlock != <IsLoading/> ? <h1 className="title">счетчик итоговой оценки</h1> : '' }
       {currentBlock}
     </div>
   );

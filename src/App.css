@@ -14,4 +14,10 @@
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+  
+}
+@media (max-width:700px) {
+  .title{
+      font-size: 18px;
+  }
 }
