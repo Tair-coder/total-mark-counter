@@ -10,6 +10,7 @@ function AmountOfMarks() {
   const dispatchFunction = useDispatch();
   const [error, setError] = useState("");
   const enteredNumber = useRef();
+
   const submitHandler = (e) => {
     e.preventDefault();
     if (enteredNumber.current.value > 60) {

@@ -18,8 +18,6 @@ function IsLoading() {
         return
       }
     },100)
-    
-   
       return () => clearInterval(loading)
   },[count])
   return (

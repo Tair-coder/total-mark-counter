@@ -1,8 +1,11 @@
+.cart{
+  padding: 3%;
+}
 .mark {
   color: #000;
   font-size: 32px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   border-bottom: 10px #d9d9d9 solid;
   padding-bottom: 10px;
@@ -37,26 +40,3 @@
   padding:0 9% 10px 9%;
   text-align: center;
 }
-/* .markInWord {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.markInPercentages {
-  color: #000;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.markInNumber {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-} */
