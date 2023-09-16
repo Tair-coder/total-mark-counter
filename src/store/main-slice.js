@@ -12,11 +12,13 @@ const mainSlice = createSlice({
         },
         counterOfMark(state,action){
             const arr = action.payload
+            let num
             let totalAmount = 0;
             for (let i = 0; i < arr.length; i++) {
                 totalAmount+=arr[i]    
             }
-            state.mark = totalAmount / state.amountSections
+            num = totalAmount / state.amountSections
+            state.mark = num.toFixed(1)
         }
     }
 })
